@@ -9,7 +9,7 @@ body {
 /* indice */
 .indice{
     margin-bottom: 15px;
-    background-color:#40383A;
+    background-color:#635756;
 }
 nav li {
     list-style: none;
@@ -28,30 +28,37 @@ nav li {
     text-align: center;
 }
 a {
-    color: black;
+    color: #A18D8A;
     text-decoration: none;
 }
 .indice a:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #A18D8A;
 }
 .Seleccionado a{
-    color: gray;
+    color: #F0CECE;
 }
 
 /* contenido */
 .Contenido {
     margin-top: -16px;
-    background-color: #807075;
-}
+    background-color: #C9B1AD;
+} 
 .Analisis {
   margin-bottom: -50px;
 }
 /* titulos */
 h2 {
     text-align: center;
-    font-family: 'Times New Roman';
+    font-family: 'Avenir Next LT Pro';
     font-style: oblique;
     font-weight: bolder;
+}
+
+h3{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: 'Calibri Light';
 }
 
 /* Contacto */
@@ -102,7 +109,7 @@ h2 {
 
 /* footer */
 footer {
-    background-color:#40383A;
+    background-color:#635756;
 }
 footer ul {
   display: inline-block;
@@ -110,16 +117,18 @@ footer ul {
   text-align: center;
   margin-left: 20%;
 }
+footer ul li {
+  color: #A18D8A
+}
 
 
-
-
-
-
-
-
-
-
+/*Escritura en general*/
+p {
+  font-family: 'Calibri Light';
+}
+ul {
+  font-family: 'Calibri Light';
+}
 
 
 
