@@ -59,6 +59,39 @@ h3{
   font-style: oblique;
   font-weight: bolder;
   font-family: 'Calibri Light';
+  font-size: 22px;
+}
+
+h4{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 0px;
+  font-family: 'Calibri Light';
+  font-size: 20px;
+}
+
+/*Escritura en general*/
+p {
+  font-family: 'Calibri Light';
+  text-align: center;
+}
+ul {
+  font-family: 'Calibri Light';
+}
+
+/*Fichas en analyses*/
+.fichetechnique p {
+  margin-top: 0px;
+  font-size: 18px;
+  vertical-align: center;
+}
+.sypnosis p {
+  vertical-align: center;
+  font-size: 18px;
+}
+
+img {
+  vertical-align: center;
 }
 
 /* Contacto */
@@ -122,14 +155,6 @@ footer ul li {
 }
 
 
-/*Escritura en general*/
-p {
-  font-family: 'Calibri Light';
-}
-ul {
-  font-family: 'Calibri Light';
-}
-
 
 
 /* Glider */
@@ -186,18 +211,19 @@ ul {
     opacity: 0;
     height: 0;
   }
-  .glider-prev,.glider-next {
+  .glider-prev {
+    vertical-align: middle;
     user-select: none;
     position: absolute;
     outline: none;
     background: none;
     padding: 0;
     z-index: 2;
-    font-size: 40px;
+    font-size: 80px;
     text-decoration: none;
-    left: -23px;
+    left: -80px;
     border: 0;
-    top: 30%;
+    top: 50%;
     cursor: pointer;
     color: #666;
     opacity: 1;
@@ -205,6 +231,28 @@ ul {
     transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
                 color .5s cubic-bezier(.17,.67,.83,.67);
   }
+  .glider-next {
+    vertical-align: middle;
+    user-select: none;
+    position:absolute;
+    outline: none;
+    background: none;
+    padding: 0;
+    z-index: 2;
+    font-size: 80px;
+    text-decoration: none;
+    right: -80px;
+    border: 0;
+    top: 50%;
+    cursor: pointer;
+    color: #666;
+    opacity: 1;
+    line-height: 1;
+    transition: opacity .5s cubic-bezier(.17,.67,.83,.67),
+                color .5s cubic-bezier(.17,.67,.83,.67);
+  }
+
+  
   .glider-prev:hover,
   .glider-next:hover,
   .glider-prev:focus,
@@ -215,11 +263,17 @@ ul {
     right: -23px;
     left: auto;
   }
-  .glider-next.disabled,
+  .glider-next.disabled {
+    opacity: .25;
+    color: black  ;
+    cursor: default;
+    vertical-align: center;
+  }
   .glider-prev.disabled {
     opacity: .25;
-    color: #666;
+    color: black  ;
     cursor: default;
+    vertical-align: center;
   }
   .glider-slide {
     min-width: 150px;
