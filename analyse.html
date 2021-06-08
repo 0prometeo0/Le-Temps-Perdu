@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>LE TEMPS PERDU</title>
+    <meta charset="UTF-8">
+    <meta name="Autor" content="Rebeca Aroca">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Fotoportada"> 
+        <img src="img/Fotoportada10.png" width=100%>
+        <!--Aqui va la imagen-->
+    </div>
+    <div class="Contenido">
+        <div class="indice">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class = "Seleccionado">
+                        <a href="analyse.html">Analyses</a>
+                    </li>  
+                    <li>
+                        <a href= "liste.html">Liste</a>
+                    </li>    
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                        
+                </ul>
+            </nav>
+        </div>
+        <h3>
+            Analyses
+        </h3>
+        <div class="montop4">
+            <div id="prim">     <!--los ids solo valen para un elemento, en cambio las clases se puedne poner a mas de uno-->
+                <article class="text">
+                    <div onclick="CambiarTexto('callmebyyournameintroducion','callmebyyournameinformacion','callmebyyournamesypnosis','callmebyyournameanalyse','callmebyyournameopinionetnote')">
+                       <img src="img/flecha.png.png" class="boton"> 
+                    </div>
+                    <p id="callmebyyournameintroducion" style="display: auto;"> 
+                        <img src="img/pelis/CallMeByYourName2017.png">
+                        Drame romantique <br>2017 <br>131 minutes <br> Réalisation par Luca Guadagnino <br> Bassé sur le roman d'André Aciman
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, maiores excepturi totam quibusdam quas voluptatibus, omnis atque porro ab quia veritatis soluta necessitatibus neque tenetur accusantium autem aliquid iure alias?
+                    </p>
+                    <p id="callmebyyournameinformacion" style="display: none;">
+                        Rélisation par Luca Guadagnino <br> Scénario par James Ivory <br> Bassé sur le roman d'André Aciman <br>Musique par Sufjan Stevens <br>Sociétés de production: Frenesy Film Company, La Cinéfacture, RT Features et Water's End Prodictions <br>Acteur principaux: Timothée Chamalet et Armie Hammer
+                    </p>
+                    <p id="callmebyyournamesypnosis" style="display: none;">
+                        Une famille passe ses vacances dans une belle villa au nord de l'Italie. Le père, Samuel est un éminent archéologue qui accueil chaque année un étudient dans cette villa pour avoir de l'aide dans ses recherches. L'été de 1983, un doctorant de ving-quatre ans avec le nom d'Oliver est accueillit pour passer l'été en aidant Samuel avec sa recherche. Au débur il semble indifférent et même arrogant envers Oliver. Mais peu à peu ils commencent à construire une histoire d'amour.
+                    </p>
+                    <p id="callmebyyournameanalyse" style="display: none;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores similique ipsam aut. Ut ad eligendi dolore, obcaecati voluptas dolores expedita! Sequi eveniet porro quasi iste quod! Voluptate neque possimus eligendi.
+                    </p>
+                    <p id="callmebyyournameopinionetnote" style="display: none;">
+                        Je pense que bla bla bla
+                        Note: xx/10
+                    </p>
+                </article>
+            </div>
+            <div id="seg">
+                <article class="text"> 
+                    <p id="callmebyyourname2" style="display: auto;"> 
+                        <img src="img/pelis/CallMeByYourName2017.png">
+                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aliquid, excepturi laborum repellendus impedit dolorem ex accusantium minima aliquam repudiandae fugiat, ipsa esse deleniti corrupti earum quidem non dolores odio! Ipsam in vel porro a vitae velit similique perspiciatis voluptates! Fugit aperiam officia quam illo accusamus qui nesciunt! Sint, magnam.
+                    <!--br para saltar de linea-->
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="app.js"> </script>
+</html>
