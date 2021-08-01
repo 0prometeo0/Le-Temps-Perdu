@@ -49,7 +49,7 @@ a {
 /* titulos */
 h2 {
     text-align: center;
-    font-family: 'Avenir Next LT Pro';
+    font-family: 'Woodland', sans-serif;
     font-style: oblique;
     font-weight: bolder;
 }
@@ -74,12 +74,20 @@ h4{
 p {
   font-family: 'Calibri Light';
   text-align: center;
+  color: black;
 }
 ul {
   font-family: 'Calibri Light';
 }
 
 /*Fichas en analyses*/
+.contenedor div {
+  width: 1000px;
+  margin: 5%;
+  padding: 5%;
+  border: 3px rgb(131, 127, 127) solid;
+}
+
 .colums p {
   margin-top: 0px;
   font-size: 18px;
@@ -88,6 +96,10 @@ ul {
 .sypnosis p {
   vertical-align: center;
   font-size: 18px;
+}
+
+.fotoanalisis {
+  object-fit: scale-down;
 }
 
 img {
