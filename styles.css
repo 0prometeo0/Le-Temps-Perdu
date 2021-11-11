@@ -168,6 +168,28 @@ footer ul li {
   color: #A18D8A
 }
 
+/*Analyses de chaque film*/
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#texto {
+  width: 50%;
+  margin-left: 10%;
+}
+#foto {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.fichetechnique p {
+  text-align: center;
+}
+.nota p{
+  text-align: center;
+}
+
 /* Glider NO TOCAR BAJO NINGUNA CIRCUNSTANCIA */
 .Analisis {
   padding: 0 20%;
