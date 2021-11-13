@@ -126,6 +126,9 @@ img {
     text-align: justify;
     padding: 3px;
 }
+.mitop4 p{
+  text-align: center;
+}
 #left {
     margin-right: 20%;
 }
